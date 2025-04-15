@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio Stylé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Barre de navigation -->
+<nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#travail">Travail</a>
+    <a href="#cv">CV</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Sections -->
+<section id="accueil">
+    <h1>Bienvenue sur mon Portfolio</h1>
+    <p>Découvrez mon univers et mes projets.</p>
+</section>
+
+<section id="apropos">
+    <h2>À propos</h2>
+    <p>Je suis développeur web passionné, créatif et toujours curieux d’apprendre de nouvelles technologies.</p>
+</section>
+
+<section id="travail">
+    <h2>Travail</h2>
+    <p>J'ai réalisé plusieurs projets : sites vitrines, applications interactives, et design UX/UI modernes.</p>
+</section>
+
+<section id="cv">
+    <h2>CV</h2>
+    <p>Téléchargez mon CV ici : <a href="#" style="color: #00bcd4;">Télécharger le CV</a></p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form action="/envoyer" method="post">
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="email">Email :</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br>
+        <input type="submit" value="Envoyer">
+    </form>
+</section>
+
+<!-- Pied de page -->
+<footer>
+    &copy; 2025 Mon Portfolio. Tous droits réservés.
+</footer>
+</body>
+</html>
